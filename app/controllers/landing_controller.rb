@@ -5,7 +5,6 @@ class LandingController < ApplicationController
   NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
   def index
-    @board = default_board
     @row = make_row
   end
 
@@ -20,7 +19,7 @@ class LandingController < ApplicationController
     row
   end
 
-  def default_board
-    Array.new(9) { Array.new(9) { "I WANT YOU TO BE A CELL" } }
+  def make_columns
+    
   end
 end

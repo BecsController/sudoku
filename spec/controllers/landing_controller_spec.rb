@@ -10,7 +10,7 @@ describe LandingController do
   describe "#index" do
     it "Should have the correct title" do
       get :index
-      expect(response.body).to include("<h1>Sudoku bitches</h1>")
+      expect(response.body).to include("<h1>Sudoku!!!!</h1>")
     end
   end
 end
